@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap');
+
+.main {
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+section {
+ display: flex;
+ flex-direction: column;
+}
+
+
+section figcaption {
+    margin-top: 10px;
+}
+
+.section__image {
+    width: 100%;
+}
+
+
+figcaption p {
+    font-size: 1em;
+}
+
+.section__first {
+    background-color: #22478d;
+    color: white;
+}
+
+.section__first figcaption h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section__second--title {
+    font-weight: 800;
+    font-size: 23px;
+    color: #22478d;
+    line-height: 1.27;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.section__second--subtitle {
+    font-size: 17px;
+    color: #3d4b5c;
+}
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.video__controller {
+    margin: 2em 0 1.5em;
+
+}
