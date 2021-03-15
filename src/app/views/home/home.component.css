@@ -191,4 +191,8 @@ figcaption p {
      
         padding: 0 calc(50vw - (1280px / 2))
     }
+
+    .card {
+        width: 26rem;
+    }
 }
