@@ -113,9 +113,6 @@ figcaption p {
     width: 100%;
 }
 
-.section__third {
-
-}
 .section__third--title  p{
 
     color: #375670;
@@ -141,4 +138,57 @@ figcaption p {
     border-left: solid 5px #375670;
     transform: translateY(-30%);
     background-color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .section__first {
+        align-items: flex-start;
+    }
+    .section__first--title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section__first-text {
+        width: 23rem;
+    }
+    
+    .section__second--content {
+        display: flex;
+    }
+
+    .section__second--content img {
+        width: 70%;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+    }
+
+    .categories {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+
+    .categories__item--image {
+        width: 100%;
+    }
+
+    .card {
+        width: 48%;
+        margin-bottom: 3rem;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .categories {
+     
+        padding: 0 calc(50vw - (1280px / 2))
+    }
 }

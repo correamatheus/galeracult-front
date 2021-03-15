@@ -18,13 +18,39 @@
 
 }
 
-.navegacao__logo img {
-
-
-}
-
 .navegacao_button {
     display: flex;
     justify-content: center;
 
+}
+
+.button__login {
+    width: 12rem;
+    border: 3px solid #375670;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navegacao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navegacao_button {
+        margin-right: 2rem;
+        margin-top: .5rem;
+ 
+    }
+
+    .navegacao__logo {
+        margin-top: .5rem;
+        margin-left: 2rem;
+    }
 }
