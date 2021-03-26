@@ -1,0 +1,634 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">GaleraCult</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+            </ul>
+            <div class="btn-group" dropdown>
+                <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                    aria-controls="dropdown-basic">
+                    Matérias <span class="caret"></span>
+                </button>
+                <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+                    <li role="menuitem"><a class="dropdown-item" href="#">Biologia</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Ciências</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Empreendedorismo</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Geografia</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">História</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Inteligência Emocional</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Leitura e Prod. Textual</a></li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar por conteúdo" aria-label="Search">
+                <button class="btn btn-outline-success search_nav" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<accordion [isAnimated]="true">
+    <accordion-group heading="O Diário de Anne Frank - (Leitura e Prod. Textual)" [isOpen]="true">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="Comunicação Não Violenta - (Inteligência Emocional)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="Luke, o Macaco Atleta / Como o Mundo Acorda - (Ciências)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="De onde vêm os nomes dos planetas - (Geografia)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="A Googlelização de Tudo - (Geografia)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="Santos-Dummont - (Empreendedorismo)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="Primavera Silenciosa - (Biologia)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="Amanhecer Esmeralda - (Inteligência Emocional)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="As Perguntas de Luísa - (Inteligência Emocional)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="De Dentro Para Fora - (Sociologia)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="A Vida no Antigo Egito - (História)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+    <accordion-group heading="A Revolução dos Bichos - (História)">
+        <section class="container d-flex flex-wrap">
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte I [págs. 1 a 118]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-3 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="../../../assets/images/imagem-cards.svg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Diário e Autoconhecimento – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                        conteúdo
+                        do card.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+        </section>
+    </accordion-group>
+
+ 
+
+
+
+    
+
+    
+</accordion>
