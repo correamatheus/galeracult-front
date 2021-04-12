@@ -4,6 +4,15 @@
     
 }
 
+.search_nav:hover {
+    color: #007bff;
+    background-color: #ffff;
+}
+
+.input-search{
+    width: 24rem;
+}
+
 .border-title {
     border: 1px solid #eeee;
     border-top-color: #007bff;

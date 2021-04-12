@@ -2,6 +2,22 @@
     background-color: #f0ebf8;
 } 
 
+.search_nav {
+    color:white;
+    border-color: white;
+    
+}
+
+.search_nav:hover {
+    color: #007bff;
+    background-color: #ffff;
+}
+
+.input-search{
+    width: 24rem;
+}
+
+
 .box-title {
     border: 1px solid #eeee;
     border-top-color: #007bff;
@@ -15,10 +31,12 @@
     border: 1px solid #eeee;
     border-radius: 10px;
     background-color: white;
+    border-left: solid 7px #6bb0f3;
+    /* border-right: solid 7px #6bb0f3; */
 }
 
 .title-forms {
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .form-control {
@@ -28,3 +46,29 @@
     height: 2rem;
 }
 
+.card-secondary {
+    box-shadow: 4px 4px 20px 0 rgb(120 135 182 / 10%);
+    border-top: solid 10px #6bb0f3;
+}
+
+.card-secondary:hover {
+    box-shadow:
+    1px 1px #53a7ea,
+    2px 2px #53a7ea,
+    3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.card-title {
+    color: #747c81;
+    font-weight: bolder;
+}
+
+.title-secondary-content {
+    font-size: 2rem;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    color: #747c81;
+    font-weight: bolder;
+}

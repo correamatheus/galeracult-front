@@ -1,37 +1,111 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-1">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">GaleraCult</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+            </ul>
+            <div class="btn-group" dropdown>
+                <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                    aria-controls="dropdown-basic">
+                    Matérias <span class="caret"></span>
+                </button>
+                <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+                    <li role="menuitem"><a class="dropdown-item" href="#">Biologia</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Ciências</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Empreendedorismo</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Geografia</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">História</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Inteligência Emocional</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Leitura e Prod. Textual</a></li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control input-search ml-2" type="search" placeholder="Pesquisar por conteúdo"
+                    aria-label="Search">
+                <button class="btn btn-outline-success search_nav ml-2" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
 <div class="container">
+    <div class="row">
+        <div class="main-content col-sm-9">
+            <div class="container box-title mt-5 pb-4 pt-4">
+                <h2>Questões Pos-Leitura</h2>
+            </div>
 
-    <div class="container box-title mt-5 pb-4 pt-4">
-        <h2>Questões Pos-Leitura</h2>
-    </div>
+            <div class="container mt-3 pb-4 pt-4 border-forms">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Digite sua resposta aqui..."></textarea>
+                </div>
+            </div>
 
-    <div class="container mt-3 pb-4 pt-4 border-forms">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua resposta aqui..."></textarea>
+            <div class="container mt-3 pb-4 pt-4 border-forms">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Digite sua resposta aqui..."></textarea>
+                </div>
+            </div>
+
+            <div class="container mt-3 pb-4 pt-4 border-forms">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
+                    <textarea class="form-control text-secondary" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Digite sua resposta aqui..."></textarea>
+                </div>
+            </div>
+
+            <div class="container mt-3 pb-4 pt-4 mb-4 border-forms">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Digite sua resposta aqui..."></textarea>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg">Gravar sua resposta</button>
         </div>
-    </div>
 
-    <div class="container mt-3 pb-4 pt-4 border-forms">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua resposta aqui..."></textarea>
+        <div class="secondary-content col-sm-3 mt-5 pb-4 pt-4">
+            <p class="title-secondary-content">Acesso Rápido</p>
+            <div class="card card-secondary mb-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">O Diário de Anne Frank – Parte II [págs. 119 a 177]</h5>
+                    <p class="card-text text-secondary">Acesso rápido ao contéudo relacionado com o que está lendo agora, para
+                        que ele nao
+                        precise voltar pra acessar</p>
+                </div>
+            </div>
+            <div class="card card-secondary mb-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">O Diário de Anne Frank – Parte III [págs. 178 a 265]</h5>
+                    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk
+                        of the card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body card-secondary mb-2">
+                    <h5 class="card-title">O Diário de Anne Frank – Parte IV [págs. 266 a 302]</h5>
+                    <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk
+                        of the card's
+                        content.</p>
+                </div>
+            </div>
         </div>
+        
+        
     </div>
-
-    <div class="container mt-3 pb-4 pt-4 border-forms">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
-            <textarea class="form-control text-secondary" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua resposta aqui..."></textarea>
-        </div>
-    </div>
-
-    <div class="container mt-3 pb-4 pt-4 mb-4 border-forms">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1" class="title-forms">Qual a sua resposta?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua resposta aqui..."></textarea>
-        </div>
-    </div>
-
-    <button type="button" class="btn btn-primary btn-lg">Gravar sua resposta</button>
-
 </div>

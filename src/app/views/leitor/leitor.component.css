@@ -1,6 +1,26 @@
+.search_nav {
+    color:white;
+    border-color: white;
+    
+}
+
+.search_nav:hover {
+    color: #007bff;
+    background-color: #ffff;
+}
+
+.input-search{
+    width: 24rem;
+}
+
 .banner-img {
     object-fit: cover;
     width: 100%;
+}
+
+.border-img {
+    border-top: solid 10px #6bb0f3;
+    border-radius: 10px;
 }
 
 /* .background-container {
@@ -19,9 +39,9 @@
     /* color: #375670;      */
 }
 
-.card {
+/* .card {
     border: none;
-}
+} */
 
 .title-info {
     font-size: 4rem;

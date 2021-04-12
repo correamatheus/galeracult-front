@@ -1,4 +1,5 @@
 <!-- <div class="container-fluid background-container mt-4">
+
   <div class="jumbotron jumbotron-fluid ">
     <div class="container">
       <img src="../../../assets/images/arvore_de_livros.png" alt="" srcset="" class="banner-img">
@@ -14,15 +15,53 @@
   </div>
 </div> -->
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">GaleraCult</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+      </ul>
+      <div class="btn-group" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+          aria-controls="dropdown-basic">
+          Matérias <span class="caret"></span>
+        </button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" href="#">Biologia</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Ciências</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Empreendedorismo</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Geografia</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">História</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Inteligência Emocional</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Leitura e Prod. Textual</a></li>
+        </ul>
+      </div>
+      <form class="d-flex">
+        <input class="form-control input-search ml-2" type="search" placeholder="Pesquisar por conteúdo"
+          aria-label="Search">
+        <button class="btn btn-outline-success search_nav ml-2" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
 <div class="container mt-4">
   <div class="row">
-    <div class="main-content col-sm-9">
-      <div class="card mb-3">
+    <div class="main-content col-sm-10">
+      <div class="card mb-3 border-img">
         <img src="../../../assets/images/arvore_de_livros.png" class="card-img-top img-arvore" alt="...">
         <div class="card-body">
           <h5 class="card-title">O Diário de Anne Frank – Parte I [págs. 1 a 118]</h5>
-          <p class="card-text text-secondary">Acessando a sua conta exclusiva da Árvore de Livros e responda às questões que vão
-            aparecer após clicar no botão abaixo.</p>
+          <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iste
+            voluptate rem dignissimos architecto consequatur sint, similique officia ut nostrum beatae perspiciatis
+            labore adipisci, dolorem, ratione aliquam officiis debitis dolorum.</p>
           <button type="button" class="btn btn-primary btn-lg btn-block">Iniciar Leitura</button>
         </div>
       </div>
@@ -35,7 +74,7 @@
         </div>
       </div> -->
     </div>
-    <div class="secondary-content col-sm-3">
+    <!-- <div class="secondary-content col-sm-3">
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">O Diário de Anne Frank – Parte II [págs. 119 a 177]</h5>
@@ -59,5 +98,5 @@
       </div>
     </div>
 
+  </div> -->
   </div>
-</div>
