@@ -16,6 +16,9 @@ import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DocumentosComponent } from './views/documentos/documentos.component';
+import { PreleituraComponent } from './views/preleitura/preleitura.component';
+import { LeitorComponent } from './views/leitor/leitor.component';
+import { PosleituraComponent } from './views/posleitura/posleitura.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { DocumentosComponent } from './views/documentos/documentos.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    DocumentosComponent
+    DocumentosComponent,
+    PreleituraComponent,
+    LeitorComponent,
+    PosleituraComponent
   ],
   imports: [
     BrowserModule,

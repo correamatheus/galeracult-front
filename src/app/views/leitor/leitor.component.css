@@ -1,0 +1,60 @@
+.banner-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* .background-container {
+    background-color: #e9ecef;
+} */
+
+.jumbotron {
+    background-color: white;
+    margin-bottom: none;
+}
+
+.title-default {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    /* color: #375670;      */
+}
+
+.card {
+    border: none;
+}
+
+.title-info {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #627beb;
+    text-align: start;
+}
+
+.text-informacao {
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+.border-content {
+    border: 1px solid #eeee;
+    border-top: solid 10px #6bb0f3;
+    /* border-bottom: solid 10px #6bb0f3; */
+    border-radius: 10px;
+}
+
+
+.card-body {
+   transition: all .3s ease;
+   border: 1px solid #eff1f9;
+   box-shadow: 4px 4px 20px 0 rgb(120 135 182 / 10%);
+}
+
+.card-body:hover{
+    box-shadow:
+    1px 1px #53a7ea,
+    2px 2px #53a7ea,
+    3px 3px #53a7ea;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}

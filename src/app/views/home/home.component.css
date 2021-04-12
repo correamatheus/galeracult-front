@@ -106,8 +106,8 @@ main {
 }
 
 .footer {
-    background-color: #0b182f;
-    color: white;
+    /* background-color: #0b182f; */
+    /* color: white; */
     text-transform: uppercase;
 }
 
@@ -124,5 +124,6 @@ main {
 
 .social-media-list {
     list-style: none;
+
 }
 

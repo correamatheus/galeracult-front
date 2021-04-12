@@ -1,0 +1,43 @@
+.search_nav {
+    color:white;
+    border-color: white;
+    
+}
+
+.border-title {
+    border: 1px solid #eeee;
+    border-top-color: #007bff;
+    border-top: solid 10px #6bb0f3;
+    border-radius: 10px;
+}
+
+.border-content {
+    border: 1px solid #eeee;
+    border-left: solid 7px #6bb0f3;
+    border-radius: 10px;
+}
+
+/* .text-title {
+    font-weight: bold;
+} */
+
+.questin-text {
+    font-weight: bold;
+}
+
+.card {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 10px;
+    
+}
+
+.card-body {
+    border-left: 4px solid #6bb0f3;
+
+}
+
+.card-text {
+    font-size: 1.3rem;
+    font-weight: 800;
+}

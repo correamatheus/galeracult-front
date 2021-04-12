@@ -1,0 +1,30 @@
+ .main {
+    background-color: #f0ebf8;
+} 
+
+.box-title {
+    border: 1px solid #eeee;
+    border-top-color: #007bff;
+    border-top: solid 5px #6bb0f3;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 20px 0 rgb(120 135 182 / 10%);
+}
+
+.border-forms {
+    border: 1px solid #eeee;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title-forms {
+    font-weight: 400;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 2rem;
+}
+
