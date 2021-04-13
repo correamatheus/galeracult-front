@@ -116,3 +116,14 @@
   background: #006cba;
   color: #fff;
 }
+
+.text-login {
+  text-decoration: underline;
+  font-size: .80rem;
+}
+
+.button-icons {
+  width: 1rem;
+  height: 1rem;
+}
+
