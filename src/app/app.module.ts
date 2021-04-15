@@ -19,6 +19,9 @@ import { DocumentosComponent } from './views/documentos/documentos.component';
 import { PreleituraComponent } from './views/preleitura/preleitura.component';
 import { LeitorComponent } from './views/leitor/leitor.component';
 import { PosleituraComponent } from './views/posleitura/posleitura.component';
+import { CabecalhoComponent } from './views/cabecalho/cabecalho.component';
+import { DisciplinaComponent } from './views/disciplina/disciplina.component';
+import { ConteudoComponent } from './views/conteudo/conteudo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { PosleituraComponent } from './views/posleitura/posleitura.component';
     DocumentosComponent,
     PreleituraComponent,
     LeitorComponent,
-    PosleituraComponent
+    PosleituraComponent,
+    CabecalhoComponent,
+    DisciplinaComponent,
+    ConteudoComponent
   ],
   imports: [
     BrowserModule,

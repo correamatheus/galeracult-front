@@ -1,0 +1,60 @@
+<header class="header">
+    <nav class="navegacao">
+        <div class="navegacao__logo">
+            <a routerLink="">
+                <img src="../../../../assets/images/logo.png">
+            </a>
+        </div>
+        <div class="btn-group btn-sm" dropdown>
+            <button id="button-basic" dropdownToggle type="button" class="btn btn-lg dropdown-toggle  btn-first-header text-secondary"
+                    aria-controls="dropdown-basic">
+              Nome do Aluno <span class="caret"></span>
+            </button>
+            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                role="menu" aria-labelledby="button-basic">
+              <li role="menuitem"><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-text-fill mr-1"></i>Documentos</a></li>
+              <li role="menuitem"><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-person-fill mr-1"></i>Resumo do aluno</a></li>
+              <li role="menuitem"><a class="dropdown-item" href="#"><i class="bi bi-key-fill mr-1"></i>Trocar senha</a></li>
+              <li class="divider dropdown-divider"></li>
+              <li role="menuitem"><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right mr-1"></i>Sair</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GaleraCult</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+        </ul>
+        <div class="btn-group" dropdown>
+          <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+            aria-controls="dropdown-basic">
+            Matérias <span class="caret"></span>
+          </button>
+          <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+            <li role="menuitem"><a class="dropdown-item" href="#">Biologia</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Ciências</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Empreendedorismo</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Geografia</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">História</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Inteligência Emocional</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Leitura e Prod. Textual</a></li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input class="form-control input-search ml-2" type="search" placeholder="Pesquisar por conteúdo"
+            aria-label="Search">
+          <button class="btn btn-outline-success search_nav ml-2" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>

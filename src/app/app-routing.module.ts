@@ -1,3 +1,6 @@
+import { ConteudoComponent } from './views/conteudo/conteudo.component';
+import { DisciplinaComponent } from './views/disciplina/disciplina.component';
+import { CabecalhoComponent } from './views/cabecalho/cabecalho.component';
 import { PosleituraComponent } from './views/posleitura/posleitura.component';
 import { LeitorComponent } from './views/leitor/leitor.component';
 import { PreleituraComponent } from './views/preleitura/preleitura.component';
@@ -26,6 +29,15 @@ const routes: Routes = [{
 }, {
   path: "posleitura",
   component: PosleituraComponent
+}, {
+  path: "cabecalho",
+  component: CabecalhoComponent
+}, {
+  path: "disciplina",
+  component: DisciplinaComponent
+}, {
+  path: "conteudo",
+  component: ConteudoComponent
 }];
 
 @NgModule({
