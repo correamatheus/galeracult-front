@@ -5,7 +5,7 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
-
+import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -46,7 +46,8 @@ import { ConteudoComponent } from './views/conteudo/conteudo.component';
     AccordionModule.forRoot(),
     PaginationModule.forRoot(),
     BsDropdownModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    NgxNavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

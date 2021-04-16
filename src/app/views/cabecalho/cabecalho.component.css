@@ -42,6 +42,10 @@
     width: 24rem;
 }
 
+.nav-link  {
+    color: #ffff;
+}
+
 @media screen and (min-width: 768px) {
 
     .navegacao {
@@ -61,4 +65,21 @@
     .btn-first-header {
         margin-right: 0px ;
     }
+
+    .input-search{
+        width: 100%;
+    }
+
+    .nav-link {
+        text-align: left;
+        align-items: center;
+    }
+
+    .btn-group .botao-materia {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
