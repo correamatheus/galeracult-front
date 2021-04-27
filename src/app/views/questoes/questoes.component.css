@@ -1,0 +1,38 @@
+.title-main{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.box-title {
+    border: 1px solid #eeee;
+    border-top-color: #007bff;
+    border-top: solid 5px #6bb0f3;
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 20px 0 rgb(120 135 182 / 10%);
+    
+}
+
+.form-control{
+    border-left: solid 5px #6bb0f3;
+}
+
+.comentario-professor{
+    border-left: solid 5px#45d0c1 !important;
+}
+
+.title-forms {
+    font-weight: 800;
+}
+
+.card {
+    height: 30rem;
+    
+}
+
+.border-img {
+    border-top: solid 5px #6bb0f3;
+    border-radius: 10px;
+
+}

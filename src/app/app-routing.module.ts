@@ -1,3 +1,7 @@
+import { CabecalhoProfessorComponent } from './views/cabecalho-professor/cabecalho-professor.component';
+import { QuestoesComponent } from './views/questoes/questoes.component';
+import { AlunoComponent } from './views/aluno/aluno.component';
+import { ProfessorComponent } from './views/professor/professor.component';
 import { ConteudoComponent } from './views/conteudo/conteudo.component';
 import { DisciplinaComponent } from './views/disciplina/disciplina.component';
 import { CabecalhoComponent } from './views/cabecalho/cabecalho.component';
@@ -38,6 +42,18 @@ const routes: Routes = [{
 }, {
   path: "conteudo",
   component: ConteudoComponent
+}, {
+  path: 'professor',
+  component: ProfessorComponent
+}, {
+  path: "aluno",
+  component: AlunoComponent
+}, {
+  path: "questoes",
+  component: QuestoesComponent
+}, {
+  path: "cabecalhoprofessor",
+  component: CabecalhoProfessorComponent
 }];
 
 @NgModule({

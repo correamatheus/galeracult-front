@@ -1,0 +1,36 @@
+.filtro-busca{
+    border: 1px solid #eeee;
+    border-radius: 10px;    
+    border-top: 7px solid #007bff;
+}
+
+.titulo-filtro{
+    /* background-color: #007bff; */
+    /* color: white; */
+    height: 2rem;
+    border-radius: 5px;
+    height: 3rem;
+    padding-top: .50rem;
+    
+}
+
+select {
+   height: calc(1.5em + .75rem + 2px);
+   width: 10rem;
+   padding-left: .3rem;   
+}
+
+.filtro-busca .tag-select{
+    font-weight: 700;
+    align-self: center;
+}
+
+div .busca-aluno{
+    width: 50%;
+
+}
+
+.busca-aluno .btn{
+    height: calc(1.5em + .75rem + 2px)
+}
+

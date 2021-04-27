@@ -1,0 +1,75 @@
+<main>
+    <div class="container">
+        <h3 class="mt-4 mb-4 pl-4 titulo-filtro">Filtre sua busca</h3>
+
+        <section class="d-flex flex-wrap filtro-busca pl-4">
+
+            <div class="d-flex mb-4 mt-4">
+
+                <p class=" tag-select mr-2">Livro:</p>
+                <select name="serie" class="mr-5">
+                    <option value="todas">Todas</option>
+                    <option value="1ano">O Diário de Anne Frank</option>
+                    <option value="2ano">Amanhecer Esmeralda</option>
+                </select>
+
+                <p class=" tag-select mr-2">Status:</p>
+                <select name="turma" id="">
+                    <option value="todas">Todas</option>
+                    <option value="901">Feito</option>
+                    <option value="902">Pendente de correção</option>
+                    <option value="902">À fazer</option>
+                </select>
+
+            </div>
+
+            <div class="input-group input-group mb-5 ml-5 mt-4 busca-aluno">
+
+                <input type="text" class="form-control mr-2" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-sm" placeholder="Busque por conteudo ">
+                <button type="button" class="btn btn-primary mr-3">Buscar</button>
+            </div>
+
+            <div class="mb-4 botoes-filtro">
+                <input class="btn btn-primary mr-3" type="submit" value="Aplicar Filtro">
+                <input class="btn btn-primary" type="submit" value="Limpar Filtro">
+            </div>
+        </section>
+
+        <h3 class="mt-5">Aluno: Matheus Marins Correa</h3>
+        <table class="table table-striped table-hover mt-2">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Conteúdo</th>
+                <th scope="col">Status</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Diario e Autoconhecimento – Parte I [págs. 1 a 118]</td>
+                <td><i class="bi bi-file-earmark-check-fill"></i>Feito</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Diario e Autoconhecimento – Parte II [págs. 119 a 177]</td>
+                <td><i class="bi bi-file-earmark-check-fill"></i>Feito</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Diario e Autoconhecimento – Parte III [págs. 178 a 265]</td>
+                <td><i class="bi bi-file-earmark-fill"></i>Pendente de correção</td>                
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>Diario e Autoconhecimento – Parte IV [págs. 266 a 302]</td>
+                <td><i class="bi bi-file-earmark-excel-fill"></i>A fazer</td>                
+              </tr>
+            </tbody>
+          </table>          
+    </div>
+</main>
